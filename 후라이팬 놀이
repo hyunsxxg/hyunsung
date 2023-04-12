@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPjxIP8E5/XhoR/URYmsrGs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hyunsxxg/hyunsung/blob/main/%ED%9B%84%EB%9D%BC%EC%9D%B4%ED%8C%AC%20%EB%86%80%EC%9D%B4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 10,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TUk-g1djx12e",
+        "outputId": "844a1a9e-9b06-402b-fa03-e7c21f3e3335"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "팅 팅팅팅 탱 탱탱탱 팅팅 탱탱 후라이팬 놀이!\n",
+            "이름:현성\n",
+            "횟수:5\n",
+            "현성현성현성현성현성\n",
+            "이름:현성\n",
+            "횟수:3\n",
+            "현성현성현성\n",
+            "이름:현성\n",
+            "횟수:100\n",
+            "현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성현성\n",
+            "이름:ㅇ\n",
+            "횟수:5\n",
+            "ㅇㅇㅇㅇㅇ\n",
+            "이름:ㅇ\n",
+            "횟수:3\n",
+            "ㅇㅇㅇ\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('팅 팅팅팅 탱 탱탱탱 팅팅 탱탱 후라이팬 놀이!')\n",
+        "for i in range(5) :\n",
+        "  name=str(input('이름:'))\n",
+        "  num=intㅇ(input('횟수:'))\n",
+        "  print(name*num)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "i2I5a4yl0rLU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
