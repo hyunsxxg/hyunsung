@@ -1,0 +1,97 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPYT5mu/SezlCLsGUW95/pR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hyunsxxg/hyunsung/blob/main/%ED%8C%8C%EC%9D%B4%EC%8D%AC\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "I = input(\"기침이 있습니까? (있을 시 Y, 없을 시 N):\")\n",
+        "C = float(input(\"체온을 입력하세요: \"))\n",
+        "if I==\"Y\" and C>=38.5:\n",
+        "     print(\"독감일 수 있습니다\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Abuu0p1U2U2S",
+        "outputId": "cc2a8ab7-236e-41eb-edbd-3fa066645fef"
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "기침이 있습니까? (있을 시 Y, 없을 시 N):Y\n",
+            "체온을 입력하세요: 38.5\n",
+            "독감일 수 있습니다\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "menu = input('메뉴 입력(김밥/라면):' )\n",
+        "if menu==\"김밥\":\n",
+        "   print(\"야채김밥(2500원) / 참치김밥(3500)\")\n",
+        "elif menu==\"라면\":\n",
+        "     print(\"기본라면(3500원) / 떡라면(4000원) / 만두라면(4000원)\")\n",
+        "else:\n",
+        "    print(\"올바른 메뉴를 입력해주세요.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vwrSsAS07EFm",
+        "outputId": "b3e9c27a-fced-42e5-b819-542e020db905"
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "메뉴 입력(김밥/라면):김밥\n",
+            "야채김밥(2500원) / 참치김밥(3500)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "i2I5a4yl0rLU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
