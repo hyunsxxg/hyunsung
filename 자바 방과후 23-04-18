@@ -17,3 +17,5 @@ public class H0418 {
 			System.out.println("홀수입니다.");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
+}
+		}
