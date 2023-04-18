@@ -1,0 +1,19 @@
+package hyunsubg;
+
+import java.util.Scanner;
+
+public class H0418 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("홀짝을 알고 싶은 숫자를 입력하세요.");
+		int num = sc.nextInt();
+		
+		if (num%2==0)
+			System.out.println("짝수입니다.");
+		else
+			System.out.println("홀수입니다.");
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
