@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMFNrbGnjAJSy2IhbY019ZF",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hyunsxxg/school/blob/main/%EC%A0%95%EB%B3%B42%202023-04-26\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "f = int(input('피연산자 입력: ')) \n",
+        "o = str(input('연산자 입력: ')) \n",
+        "s = int(input('피연산자 입력: ')) \n",
+        "\n",
+        "if o == \"+\": \n",
+        "  t = f+s \n",
+        "elif o == \"-\":\n",
+        "    t = f-s \n",
+        "elif o == \"*\":\n",
+        "    t = f*s\n",
+        "elif o == \"/\": \n",
+        "    t = f/s \n",
+        "elif o == \"//\":\n",
+        "    t = f//s\n",
+        "elif o == \"**\":\n",
+        "    t = f**s\n",
+        "elif o == \"%\":\n",
+        "    t = f%s\n",
+        "print(f, o, s, \"=\", t) "
+      ],
+      "metadata": {
+        "id": "oEhcWRYt9yry"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Mi-maXrlIRFF"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
