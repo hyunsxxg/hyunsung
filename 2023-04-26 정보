@@ -1,0 +1,67 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM4R+OVAzs/bvJYuRc9CgMb",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hyunsxxg/hyunsung/blob/main/2023-04-26%20%EC%A0%95%EB%B3%B4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "f = int(input('피연산자 입력: '))\n",
+        "o = str(input('연산자 입력: '))\n",
+        "s = int(input('피연산자 입력: '))\n",
+        "if o == \"+\":\n",
+        "  t = f+s\n",
+        "elif o == \"-\":\n",
+        "    t = f-s\n",
+        "elif o == \"*\" or \"x\" or \"X\":\n",
+        "    t = f*s\n",
+        "elif o == \"/\":\n",
+        "    t = f/s\n",
+        "print(f, o, s, \"=\", t)"
+      ],
+      "metadata": {
+        "id": "oEhcWRYt9yry",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f886312d-21e1-4864-9917-3ccd180a00ac"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "피연산자 입력: 6\n",
+            "연산자 입력: x\n",
+            "피연산자 입력: 3\n",
+            "6 x 3 = 18\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
