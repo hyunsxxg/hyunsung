@@ -31,7 +31,7 @@
       "source": [
         "f = int(input('피연산자 입력: '))\n",
         "o = str(input('연산자 입력: '))\n",
-        "s = int(input('피연산자 입력: '))\n",
+        "s = int(input('피연산자 입력: '))\n", 
         "if o == \"+\":\n",
         "  t = f+s\n",
         "elif o == \"-\":\n",
