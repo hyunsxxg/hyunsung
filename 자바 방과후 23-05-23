@@ -1,0 +1,32 @@
+package hyunsung;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// 숫자 입력받아서 1부터 홀수끼리 더하고 짝수끼리 더하기
+		Scanner sc = new Scanner(System.in);
+		
+		// 숫자 입력받기
+		int evenSum = 0;
+		int oddSum = 0;
+		int num = sc.nextInt();
+		
+		for(int i=1; i<=num; i++) {
+			// 1~num 까지 도는 반복문
+			// 짝수일때
+			if(i%2==0) {
+				evenSum += i;
+				
+			} else if(i%2==1) {
+				// 짝수가 아니고 홀수일때
+				oddSum += i;
+			}
+			
+		}
+		System.out.println("짝수 합:"+evenSum);
+		System.out.println("홀수 합:"+oddSum);
+	}
+
+}
