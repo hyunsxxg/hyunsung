@@ -1,0 +1,49 @@
+package hyunsung;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+		Random rd = new Random();
+		
+		int 김 = rd.nextInt(9)+1; 
+		int 현 = rd.nextInt(9)+1; 
+		int 성 = rd.nextInt(9)+1; 
+		
+		while(김==현||현==성||성==김) {
+			김 = rd.nextInt(9)+1; 
+			현 = rd.nextInt(9)+1; 
+			성 = rd.nextInt(9)+1; 
+		}	
+
+		// System.out.println(김);
+		// System.out.println(현);
+		// System.out.println(성);
+		
+		Scanner sc = new Scanner(System.in);
+		// 사용자가 숫자 3개를 입력
+		System.out.print("숫자 3개를 입력하세요");
+		Int khs = sc.nextInt();
+		
+		if(khs>999) {
+			System.out.println("다시 입력하세요");
+		} else {
+			// 123
+			// 10으로 나눈 나머지 -> 3
+			int s = khs % 10;
+			khs = khs / 10; // 12
+			int h = khs % 10; // 2
+			khs = khs % 10; // 1
+			int k = khs % 10; // 1
+			
+			int st = 0;
+			int bl = 0;
+			
+			// 스트라이크 인지 볼인지 판단
+			// 컴퓨터 : 김 현 성
+			// 입력한 : k h s
+			if(김==k) st++;
+			if(현==h) st++;
+			if(성==s) st++;
