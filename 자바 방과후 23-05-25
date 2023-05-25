@@ -1,0 +1,100 @@
+package hyunsung;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+        // 컴터가 숫자 3개를 결정
+        Random rd = new Random();
+       
+        int[] 김현성 = new int[3];
+        
+        // int 김 = rd.nextInt(9)+1;
+        // int 현 = rd.nextInt(9)+1;
+        // int 성 = rd.nextInt(9)+1;
+        
+        // 김현성[0] = rd.nextInt(9)+1;
+        // 김현성[1] = rd.nextInt(9)+1;
+        // 김현성[2] = rd.nextInt(9)+1;
+        
+        for(int i=0; i<김현성.length; i++) {
+        	김현성[i] = rd.nextInt(9)+1;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+//        while(김==현||현==성||김==성) {
+//            김 = rd.nextInt(9)+1;
+//            현 = rd.nextInt(9)+1;
+//            성 = rd.nextInt(9)+1;
+//        }
+        
+        while(김현성[0]==김현성[1]||김현성[1]==김현성[2]
+        		||김현성[0]==김현성[2]) {
+        	for(int i=0; i<김현성.length; i++) {
+            	김현성[i] = rd.nextInt(9)+1;        	
+        }
+        	
+        	Scanner sc = new Scanner(System.in);
+        	// 사용자가 숫자 3개를 입력
+       
+        int[] khs = new int[3];
+        int num;
+        
+        int str=0;
+        int b;
+        while(str!=3) {
+        	str=0;
+        	b=0;
+        	System.out.print("숫자 3개를 입력하세요");
+        	// 123 -> khs[0]-1, khs[1]-2, khs[2]-3
+        	num = sc.nextInt();
+        	
+        	if(num>999) {
+        		System.out.println("다시 입력하세요");
+        	} else {
+        		for(int i=khs.length-1; i>=0; i--) {
+        		// i의 초기값은 3-1=2;
+        		// i가 0보다 작은동안 반복
+        		// 반복문이 실행될때마다 i가 1씩 감소
+        	  khs[i] = num % 10;
+        	  num = num / 10; 
+        	  }
+        		
+        	// 스트라이크판정
+        	// 김현성[3] = {r1, r2, r3)
+        	// khs[3] = {i1, i2, i3)
+        	if(김현성[0]==khs[0]) str++;
+        	if(김현성[1]==khs[1]) str++;
+        	if(김현성[2]==khs[2]) str++;
+        	
+        	if(khs[0]==김현성[1]||khs[0]==김현성[2]) b++;
+        	if(khs[1]==김현성[0]||khs[1]==김현성[2]) b++;
+        	if(khs[2]==김현성[1]||khs[2]==김현성[0]) b++;
+        	System.out.println("스트라이크 "+str+"개");
+        	System.out.println("볼 "+b+"개"); 
+        		
+        	} if (str==3) { 
+        		System.out.println("정답입니다!");
+        	}
+        	
+        	
+        	
+        	}
+        	
+        	
+        	}
+            
+           
+        }
+    }
